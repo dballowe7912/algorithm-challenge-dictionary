@@ -1,0 +1,11 @@
+{
+  "name": "algorithm-challenge-dictionary",
+  "version": "1.0.0",
+  "description": "A dictionary of different algorithms, with a variety of solutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donald Ballowe",
+  "license": "MIT"
+}
