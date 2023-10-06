@@ -11,4 +11,6 @@ function insertionSort(arr){
 }
 
 console.log(insertionSort([2, 1, 9, 76, 4]));
-// [1, 2, 4, 9, 76]
+// [2, 1, 9, 76, 4]
+// i = 1 arr[1] = currentValue [2, current, 9, 76, 4]
+// j = 0 arr[0] = 2 [j, current, 9, 76, 4]
