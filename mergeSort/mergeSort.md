@@ -1,5 +1,7 @@
 ### Merge Sort
 
+MergeSort is a Divide and Conquer algorithm. It divides the input array into two halves, recursively calls itself on the two halves, then merges the returned halves into a result array.
+
 ## Part 1: Merge Arrays
 
 - create a helper function to merge two sorted arrays, which returns a sorted array
