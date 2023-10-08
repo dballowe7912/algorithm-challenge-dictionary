@@ -41,3 +41,9 @@ function mostDigits(nums) {
 ```
 
 ## Big O Notation
+- Time Complexity
+    - best case O(*nk*)
+    - average case O(*nk*)
+    - worst case O(*nk*)
+- Space Complexity
+    - O(*n + k*)
