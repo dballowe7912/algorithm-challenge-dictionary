@@ -16,3 +16,10 @@ Linked lists consists of nodes, and each node has a value and a pointer to anoth
 - Set the tail to be the 2nd to last node
 - Decrement the length of the list by 1
 - Return the value of removed node
+
+## Part 3: Shift Method
+- If no nodes exist, return undefined
+- Store the current head property in a variable
+- Set the head property to be the current head's next property
+- Decrement length by 1
+- Return the value of the removed node

@@ -40,14 +40,29 @@ class SinglyLinkedList{
         }
         return current;
     }
+    shift() {
+        if (!this.head) return undefined;
+        let removedHead = this.head;
+        this.head = removedHead.next;
+        this.length--;
+        if (this.length === 0) {
+            this.tail = null;
+        }
+        return removedHead;
+    }
 }
 
-var list = new SinglyLinkedList()
-list.push("HELLO")
-list.push("GOODBYE")
-list.push("Hello Hello")
-list.push("I Don't know why you say hello")
-list.push("I say goodbye")
-let peek = list.pop();
-console.log(list);
-console.log(peek.val);
+let groceryList = new SinglyLinkedList();
+
+groceryList.push("eggs")
+groceryList.push("bacon")
+groceryList.push("bread")
+groceryList.push("milk")
+groceryList.pop(); // milk
+groceryList.shift() // eggs
+console.log(groceryList);
+// SinglyLinkedList {
+//     head: Node { val: 'bacon', next: Node { val: 'bread', next: null } },
+//     tail: Node { val: 'bread', next: null },
+//     length: 2
+//  }
