@@ -36,3 +36,16 @@ Adds a new node to the beginning of a Linked List
 - Set the head property on the list to be that newly created node
 - Increment the length by 1
 - Return linked list
+
+## Part 5: Get
+Retrieving a node by it's position in a Linked List.
+- Method should accept an index
+- If the index is less than zero or greater than or equal to the list's length, return null
+- Loop through the list until you reach the index and return the node at that specific index
+
+## Part 6: Set
+Change the value of a node based on it's position in the Linked List
+- Method should accept an index and a value
+- Use the **get** method to find the specific node
+- If node is not found, return false
+- If node is found, update the value of that node and return true

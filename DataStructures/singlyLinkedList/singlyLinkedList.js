@@ -62,6 +62,24 @@ class SinglyLinkedList{
         this.length++;
         return this;
     }
+    get(index) {
+        if (index < 0 || index >= this.length) return null;
+        let counter = 0;
+        let current = this.head;
+        while (counter !== index) {
+            current = current.next;
+            counter++;
+        }
+        return current;
+    }
+    set(index, val) {
+       let foundNode = this.get(index);
+       if (foundNode) {
+        foundNode.val = val;
+        return true;
+       }
+       return false;
+    }
 }
 
 let groceryList = new SinglyLinkedList();
@@ -70,11 +88,5 @@ groceryList.push("eggs")
 groceryList.push("bacon")
 groceryList.push("bread")
 groceryList.push("milk")
-groceryList.pop(); // milk
-groceryList.shift() // eggs
-console.log(groceryList);
-// SinglyLinkedList {
-//     head: Node { val: 'bacon', next: Node { val: 'bread', next: null } },
-//     tail: Node { val: 'bread', next: null },
-//     length: 2
-//  }
+
+// console.log(groceryList);
