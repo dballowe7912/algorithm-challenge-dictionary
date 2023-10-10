@@ -49,3 +49,15 @@ Change the value of a node based on it's position in the Linked List
 - Use the **get** method to find the specific node
 - If node is not found, return false
 - If node is found, update the value of that node and return true
+
+## Part 7: Insert
+Adding a node to a Linked List at a **specific** position
+- create a new Node variable
+- If the index is less than zero or greater than the length, return false
+- If the index is the same as the length, push a new node to the end of the list
+- If the index is 0, unshift a new node to the start of the list
+- Otherwise use the **get** method and access the node at the index - 1
+- Set the .next property on that node to be the newNode
+- Set the .next property on the newNode to be the previous next
+- Increment the length
+- Return true
