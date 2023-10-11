@@ -34,3 +34,26 @@ Removing a Node from the beginning of the list
 - Set the old head's next to null
 - Decrement the length
 - Return oldHead
+
+## Part 4: Unshift
+Adding a Node to the beginning of the list
+- Create a new node from the value passed to the method
+- If the length is 0
+  - Set the head to be the newNode
+  - Set the tail to be the newNode
+- Otherwise
+  - Set the previous property on the head of the list to be the newNode
+  - Set the next property on the newNode to be the head property
+  - Update the head to be the newNode
+- Increment the length
+- Return the list
+
+## Part 5: Get
+Accesing a node in a list by its position
+- If the index is less than 0 or greater than or equal to the length, return null
+- If the index is less than or equal to half the length of the list
+  - Loop through the list starting from the head and loop towards the middle
+  - Return the node once it is found
+- If the index is greater than half the length of the list
+  - Loop through the list starting from the tail and loop towards the middle
+  - Return the Node once found
