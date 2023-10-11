@@ -19,3 +19,6 @@ MergeSort is a Divide and Conquer algorithm. It divides the input array into two
 - split the array in halves until you have arrays that are empty or have one element (Array.slice()) recursively
 - with smaller sorted arrays, merge those arrays with other sorted arrays until back to full array length
 - once merged back together, return merged and sorted array
+
+## Big O Complexity
+The big-O complexity for insertion sort is O(n log n) in the best case, and O(n log n) in the average and worst case.

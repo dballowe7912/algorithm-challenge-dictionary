@@ -83,3 +83,11 @@ Reversing the Linked List **in place**
 - Set the next property on the node to be whatever prev is
 - Set prev to be the value of the node variable
 - Set the node variable to be the value of the next variable
+
+## Big O Complexity
+- **Insertion** O(1)
+- **Removal**
+    - best case O(1)
+    - worst case O(n)
+- **Searching** O(n)
+- **Access** O(n)

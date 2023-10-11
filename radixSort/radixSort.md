@@ -40,7 +40,7 @@ function mostDigits(nums) {
 }
 ```
 
-## Big O Notation
+## Big O Complexity
 - Time Complexity
     - best case O(*nk*)
     - average case O(*nk*)

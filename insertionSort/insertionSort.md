@@ -9,8 +9,8 @@ InsertionSort builds up the sort by gradually creating a larger left half which 
 - Proceed to the next element and if it is not in the correct order, iterate through the sorted portion and insert the element into the correct place
 - Repeat until entire array is sorted and return array
 
-## Big O Notation
-The big-O notation for insertion sort is O(n) in the best case, and O(n^2) in the average and worst case.
+## Big O Complexity
+The big-O complexity for insertion sort is O(n) in the best case, and O(n^2) in the average and worst case.
 
 ## Sources
 Programming with Mosh

@@ -1,7 +1,7 @@
 ### Bubble Sort
 ## Pseudocode
 
-## Big O Notation
+## Big O Complexity
 - Time Complexity
     - best case O(*n*^<sup>2</sup>)
     - average case O(*n*^<sup>2</sup>)
