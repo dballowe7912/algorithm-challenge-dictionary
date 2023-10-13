@@ -57,3 +57,15 @@ Accesing a node in a list by its position
 - If the index is greater than half the length of the list
   - Loop through the list starting from the tail and loop towards the middle
   - Return the Node once found
+
+## Part 6: Set
+Replacing the value of a node in a list
+- Create a variable which is the result of the get method at the index passed to the method
+  - If the get method returns a valid node, set the value of that node to be the value passed in
+  - Return true
+
+## Part 7: Insert
+Adding a Node in a list by a certain position
+- If the index is less than 0 or greater than or equal to the length return false
+- if the index is 0, **unshift**
+- If the index is the same as the length, **push**
