@@ -95,14 +95,24 @@ class BinarySearchTree {
   }
   depthFirstPostOrder() {
     let data = [];
-    let current = this.root;
-
     function traverse(node) {
       if (node.left) traverse(node.left);
       if (node.right) traverse(node.right);
       data.push(node.value);
     }
-    traverse(current);
+    traverse(this.root);
+    return data;
+  }
+  depthFirstInOrder() {
+    let data = [];
+    function traverse(node) {
+      if (node.left) traverse(node.left);
+      // node.left && traverse(node.left)
+      data.push(node.value);
+      if (node.right) traverse(node.right);
+      // node.right && traverse(node.right)
+    }
+    traverse(this.root);
     return data;
   }
 }
@@ -123,6 +133,7 @@ tree.insert(16)
 // console.log(tree.insert(16)) undefined
 // console.log(tree.breadthFirstSearch())
 // console.log(tree.depthFirstPostOrder())
+console.log(tree.depthFirstInOrder())
 // console.log(tree.find(100)) false
 // console.log(tree)
 //      10

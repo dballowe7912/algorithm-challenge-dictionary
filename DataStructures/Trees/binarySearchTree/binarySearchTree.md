@@ -66,6 +66,17 @@ Same as the find method but returns true if Node is found and false if node valu
     - Invoke the helper function with the current variable
   - Return the array of values
 
+**InOrder**
+- Steps - Recursively
+  - Create a variable to store the values of nodes visited
+  - Store the root of the BST in a variable called current
+  - Write a helper function which accepts a node
+    - If the node has a left property, call the helper function with the left property on the node
+    - Push the value of the Node to the variable that stores the values
+    - If the node has a right property, call the helper function with the right property on the node
+  - Invoke the helper function with the current variable
+  - Return the array of values
+
 ## Big O Complexity
 - **Insertion** O(log n)
 - **Searching** O(log n)
