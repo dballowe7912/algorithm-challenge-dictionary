@@ -1,4 +1,6 @@
 ### Quick Sort
+A sorting algorithm that selects a pivot element and partitions the array around the pivot.
+
 ## Pseudocode
 # Part One: Pivot
 - three arguments
@@ -14,7 +16,7 @@
 - Call the pivot helper on the array
 - When the pivot helper returns the new pivot index, recursively call  the pivot helper on the subarray to the left of that index, as well as the right
 
-# Big O Notation
+# Big O Complexity
 - Time Complexity
     - best case O(*n* log *n*)
     - average case O(*n* log *n*)
