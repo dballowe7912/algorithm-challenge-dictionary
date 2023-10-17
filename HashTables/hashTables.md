@@ -1,12 +1,12 @@
-### Hash Tables
+# Hash Tables
 
 ## Pseudocode
-# Part 1: Set
+## Part 1: Set
 - Accepts a key and a value
 - Hashes the key
 - Stores the key-value pair in the hash table array via seperate chaining
 
-# Part 2: Get
+## Part 2: Get
 - Accepts a key
 - Hashes the key
 - Retrieves the key-value pair in the hash table

@@ -1,4 +1,4 @@
-### Binary Search Trees
+# Binary Search Trees
 
 ## Part 1: Insert
 - Create a new Node
@@ -33,7 +33,7 @@
 Same as the find method but returns true if Node is found and false if node value does not exist
 
 ## Part 4: Tree Traversal
-# Breadth-first Search (BFS)
+### Breadth-first Search (BFS)
 - Steps - Iteratively
   - Create a queue (this can be an array) and a variable to store the values of nodes visited
   - Place the root Node in the queue
@@ -43,7 +43,7 @@ Same as the find method but returns true if Node is found and false if node valu
     - If there is a right property on the node dequeued, add it to the queue
   - Return the variable that stores the values
 
-# Depth-first Search (DFS)
+### Depth-first Search (DFS)
 **PreOrder**
 - Steps - Recursively
   - Create a variable to store the values of nodes visited

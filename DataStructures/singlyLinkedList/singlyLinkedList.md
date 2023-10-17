@@ -1,4 +1,4 @@
-### Singly Linked List
+# Singly Linked List
 A singly linked list is a data structure that consists of a series of nodes, each of which contains a value and a pointer to the next node in the list. The first node in the list is called the head, and the last node is called the tail. Singly linked lists are a simple and efficient way to store data that can be traversed in a forward direction only.
 
 - Singly Linked Lists are an exellent alternative to arrays when insertion and deletion at the beginning are frequently required
@@ -93,5 +93,5 @@ Reversing the Linked List **in place**
 - **Searching** O(n)
 - **Access** O(n)
 
-## Sources
+### Sources
 [https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/]

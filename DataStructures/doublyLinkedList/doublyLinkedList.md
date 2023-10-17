@@ -1,8 +1,8 @@
-### Doubly Linked List
+# Doubly Linked List
 Almost identical to Singly Linked Lists, except every node has another pointer to the previous node.
 
 ## Pseudocode
-# Part 1: Push
+## Part 1: Push
 Add new node to end of list
 - Create a new node with the value passed into the function
 - If the head is null, set the head and tail to be the new Node

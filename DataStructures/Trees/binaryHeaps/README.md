@@ -1,4 +1,4 @@
-### Binary Heaps
+# Binary Heaps
 A binary heap is a data structure that is used to store a collection of elements in a way that allows for efficient insertion, deletion, and retrieval of elements. A binary heap is a complete binary tree, which means that all levels of the tree are filled except for the last level, and the elements on the last level are filled from left to right.
 
 Binary heaps are often used as the underlying data structure for priority queues, which are data structures that allow for efficient retrieval of the element with the highest or lowest priority.
