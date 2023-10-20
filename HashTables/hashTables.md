@@ -45,3 +45,13 @@ function hash(key, arrayLen) {
 	- Linear Probing
 		- When we find a collision, we search through the array to find the next empty slot
 		- This allows us to store a single key-value pair at each index
+
+## Part 3: Keys and Values
+- `keys` loops through the hash table array and returns an array of keys in the table
+- `values` loops through the hash table and returns an array of values in the table
+
+## Big O Complexity
+
+- **Insert** O(1)
+- **Deletion** O(1)
+- **Access** O(1)

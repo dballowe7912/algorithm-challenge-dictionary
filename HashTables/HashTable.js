@@ -34,6 +34,34 @@ class HashTable {
 		}
 		return undefined;
 	}
+
+	keys() {
+		let keysArr = [];
+		for (let i = 0; i < this.keyMap.length; i++) {
+			 if(this.keyMap[i]) {
+					for (let j = 0; j < this.keyMap[i].length; j++) {
+						if (!keysArr.includes(this.keyMap[i][j][0])) {
+							keysArr.push(this.keyMap[i][j][0])
+						}
+					}
+			 }
+		}
+		return keysArr;
+	}
+
+	values() {
+		let valuesArr = [];
+		for (let i = 0; i < this.keyMap.length; i++) {
+			 if(this.keyMap[i]) {
+					for (let j = 0; j < this.keyMap[i].length; j++) {
+						if (!valuesArr.includes(this.keyMap[i][j][1])) {
+							valuesArr.push(this.keyMap[i][j][1])
+						}
+					}
+			 }
+		}
+		return valuesArr;
+	}
 }
 
 const table = new HashTable();
@@ -43,5 +71,7 @@ table.set("Donald", "Ballowe");
 table.set("Lachel", "Ballowe");
 table.set("Pamela", "Jo");
 table.set("John", "Gregg");
-console.log(table.get("Donald"));
+// console.log(table.get("Donald"));
+console.log(table.values());
+console.log(table.keys());
 // console.log(table)
