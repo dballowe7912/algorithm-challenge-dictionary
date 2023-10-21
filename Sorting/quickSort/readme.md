@@ -1,7 +1,8 @@
 # Quick Sort
 A sorting algorithm that selects a pivot element and partitions the array around the pivot.
 
-## Pseudocode
+---
+
 ## Part One: Pivot
 - three arguments
     - array
@@ -16,6 +17,8 @@ A sorting algorithm that selects a pivot element and partitions the array around
 - Call the pivot helper on the array
 - When the pivot helper returns the new pivot index, recursively call  the pivot helper on the subarray to the left of that index, as well as the right
 
+---
+
 ## Big O Complexity
 - Time Complexity
     - best case O(*n* log *n*)
@@ -23,3 +26,5 @@ A sorting algorithm that selects a pivot element and partitions the array around
     - worst case O(*n*<sup>2</sup>)
 - Space Complexity
     - O(log *n*)
+
+---

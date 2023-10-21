@@ -40,6 +40,8 @@ function mostDigits(nums) {
 }
 ```
 
+---
+
 ## Big O Complexity
 - Time Complexity
     - best case O(*nk*)
@@ -47,3 +49,5 @@ function mostDigits(nums) {
     - worst case O(*nk*)
 - Space Complexity
     - O(*n + k*)
+
+---

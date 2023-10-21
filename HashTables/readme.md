@@ -1,6 +1,5 @@
 # Hash Tables
 
-## Pseudocode
 ## Part 1: Set
 - Accepts a key and a value
 - Hashes the key
@@ -11,6 +10,8 @@
 - Hashes the key
 - Retrieves the key-value pair in the hash table
 - If the key is not found, return undefined
+
+---
 
 ## Hash Function Examples
 ```js
@@ -37,6 +38,9 @@ function hash(key, arrayLen) {
 	return total;
 }
 ```
+
+---
+
 ## Hash Collisions
 - Even with a large array and a great hash function, collisions are inevitable
 - Dealing with collisions
@@ -50,8 +54,12 @@ function hash(key, arrayLen) {
 - `keys` loops through the hash table array and returns an array of keys in the table
 - `values` loops through the hash table and returns an array of values in the table
 
+---
+
 ## Big O Complexity
 
 - **Insert** O(1)
 - **Deletion** O(1)
 - **Access** O(1)
+
+---

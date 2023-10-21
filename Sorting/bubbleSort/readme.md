@@ -1,11 +1,15 @@
 # Bubble Sort
 Bubble sort is a simple sorting algorithm that works by repeatedly comparing adjacent elements in an array and swapping them if they are in the wrong order. The algorithm continues until no more swaps are necessary, which means that the array is sorted.
 
+---
+
 ## Pseudocode
 - Traverse from left and compare adjacent elements and the higher one is place at the right side
 - With this the largest element is moved farthest right end
 - Start the process again until no more swaps are available
 - Return sorted array
+
+---
 
 ## Big O Complexity
 - Time Complexity
@@ -15,6 +19,8 @@ Bubble sort is a simple sorting algorithm that works by repeatedly comparing adj
 - Space Complexity
     - O(1)
 
+---
+
 ### Sources
-[https://visualgo.net/en/sorting?slide=1]
-[https://www.geeksforgeeks.org/bubble-sort/]
+[visualgo.net](https://visualgo.net/en/sorting?slide=1)
+[geeksforgeeks.org](https://www.geeksforgeeks.org/bubble-sort/)

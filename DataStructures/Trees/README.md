@@ -1,4 +1,4 @@
-### TREES
+# TREES
 A data structure that consists of Nodes in a **parent / child** relationship.
 Lists are linear meaning *one path*, while Trees are nonlinear *multiple paths*.
 
@@ -9,7 +9,11 @@ Lists are linear meaning *one path*, while Trees are nonlinear *multiple paths*.
 - **Leaf** a Node with no children
 - **Edge** is the connection between one node and another
 
+---
+
 ## Binary Search Trees
 - Every parent Node has at most 2 children
 - Every Node to the left of the parent is always less than the parent
 - Every Node to the right of the parent is always greater than the parent
+
+---

@@ -1,4 +1,4 @@
-### Max Binary Heap
+# Max Binary Heap
 ## Part 1: Insert
 - Push the value into the values property on the heap
 - Bubble the value to its correct spot

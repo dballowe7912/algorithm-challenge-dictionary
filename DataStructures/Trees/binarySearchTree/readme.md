@@ -1,5 +1,7 @@
 # Binary Search Trees
 
+---
+
 ## Part 1: Insert
 - Create a new Node
 - Start at the root
@@ -44,7 +46,7 @@ Same as the find method but returns true if Node is found and false if node valu
   - Return the variable that stores the values
 
 ### Depth-first Search (DFS)
-**PreOrder**
+#### PreOrder
 - Steps - Recursively
   - Create a variable to store the values of nodes visited
   - Store the root of the BST in a variable called current
@@ -55,7 +57,7 @@ Same as the find method but returns true if Node is found and false if node valu
   - Invoke the helper function with the current variable
   - Return the array of values
 
-**PostOrder**
+#### PostOrder
 - Steps - Recursively
   - Create a variable to store the values of nodes visited
   - Store the root of the BST in a variable called current
@@ -66,7 +68,7 @@ Same as the find method but returns true if Node is found and false if node valu
     - Invoke the helper function with the current variable
   - Return the array of values
 
-**InOrder**
+#### InOrder
 - Steps - Recursively
   - Create a variable to store the values of nodes visited
   - Store the root of the BST in a variable called current
@@ -76,6 +78,8 @@ Same as the find method but returns true if Node is found and false if node valu
     - If the node has a right property, call the helper function with the right property on the node
   - Invoke the helper function with the current variable
   - Return the array of values
+
+---
 
 ## Big O Complexity
 - **Insertion** O(log n)
